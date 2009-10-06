@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+    http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<persistence-unit name="ProyectoVEP1PU"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<!--  <non-jta-data-source>java:jdbc/vepDS</non-jta-data-source>-->
+
+
+
+		<class>co.com.vep.modelo.VepAsociado</class>
+		<class>co.com.vep.modelo.VepValoracion</class>
+		<class>co.com.vep.modelo.VepProgramacion</class>
+		<class>co.com.vep.modelo.VepBitacoraEstado</class>
+		<class>co.com.vep.modelo.VepProfesor</class>
+		<class>co.com.vep.modelo.VepSipparametroTipo</class>
+		<class>co.com.vep.modelo.VepBitacoraConsultoria</class>
+		<class>co.com.vep.modelo.VepArchivoActividad</class>
+		<class>co.com.vep.modelo.VepSipParametro</class>
+		<class>co.com.vep.modelo.VepArchivoGestion</class>
+		<class>co.com.vep.modelo.VepAtributoAsociado</class>
+		<class>co.com.vep.modelo.VepTipoAtributo</class>
+		<class>co.com.vep.modelo.VepDetalleConsultoria</class>
+		<class>co.com.vep.modelo.VepLugar</class>
+		<class>co.com.vep.modelo.VepSitio</class>
+		<class>co.com.vep.modelo.VepParametroActividad</class>
+		<class>co.com.vep.modelo.VepUsuario</class>
+		<class>co.com.vep.modelo.VepAsistenteProg</class>
+		<class>co.com.vep.modelo.VepEncuesta</class>
+		<class>co.com.vep.modelo.VepConsultor</class>
+		<class>co.com.vep.modelo.VepRegional</class>
+		<class>co.com.vep.modelo.VepConsultoria</class>
+		<class>co.com.vep.modelo.VepTipoAtributoId</class>
+		<class>co.com.vep.modelo.VepPlusBuc</class>
+		<class>co.com.vep.modelo.VepProfesorPlusBuc</class>
+		<class>co.com.vep.modelo.VepUbicacionProfesor</class>
+		<class>co.com.vep.modelo.VepProfesorId</class>
+		<class>co.com.vep.modelo.VepUbicacionProfesorId</class>
+		<class>co.com.vep.modelo.VepBeneficiadoConsultoria</class>
+		<class>co.com.vep.modelo.VepBeneficiario</class>
+		<class>co.com.vep.modelo.VepBeneficiarioId</class>
+		<class>co.com.vep.modelo.VepUbicacionAcudiente</class>
+		<class>co.com.vep.modelo.VepAcudiente</class>
+		<class>co.com.vep.modelo.VepUbicacionAcudienteId</class>
+		<properties>
+			<property
+				name="hibernate.transaction.flush_before_completion" value="true" />
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.DB2400Dialect" />
+		
+				<property name="hibernate.connection.driver_class"
+				value="com.ibm.as400.access.AS400JDBCDriver" />
+				<property name="hibernate.connection.url"
+				value="jdbc:as400://192.1.4.170:8471/VEP;date format=iso" />
+				<property name="hibernate.connection.username"
+				value="USERVEP" />
+				<property name="hibernate.connection.password"
+				value="u53rv3p831" />
+				<property name="hibernate.show_sql" value="true" />
+				<property name="hibernate.dialect"
+				value="org.hibernate.dialect.DB2400Dialect" />
+	<!--
+			<property name="hibernate.connection.driver_class"
+				value="com.ibm.as400.access.AS400JDBCDriver" />
+			<property name="hibernate.connection.url"
+				value="jdbc:as400://192.1.4.51:8471/VEP;date format=iso" />
+			<property name="hibernate.connection.username"
+				value="USERVEP" />
+			<property name="hibernate.connection.password"
+				value="NEWF3CL7" />
+			<property name="hibernate.show_sql" value="true" />  
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.DB2400Dialect" />-->
+
+		</properties>
+
+	</persistence-unit>
+
+</persistence>

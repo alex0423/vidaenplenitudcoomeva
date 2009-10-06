@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSFFlowViewLayout version="1.0">
+  <Drawing gridVisible="true" snapOn="true" />
+  <JSFFlowResource path="/seguimientoBancoExpertos.iface" location="30,30" dimension="204,36" />
+  <JSFFlowResource path="/pdf/consultoria.iface" location="330,30" dimension="147,36" />
+  <JSFFlowResource path="/consultaBancoExpertos.iface" location="30,130" dimension="187,36" />
+  <JSFFlowResource path="/pdf/bancoExpertos.iface" location="330,130" dimension="167,36" />
+  <JSFFlowResource path="/*" location="480,230" dimension="54,36" />
+  <JSFFlowResource path="/principal.iface" location="30,530" dimension="114,36" />
+  <JSFFlowResource path="/formValoracion.iface" location="330,530" dimension="146,36" />
+  <JSFFlowResource path="/formInscripcion.iface" location="30,630" dimension="148,36" />
+  <JSFFlowResource path="/formConsultarCumple.iface" location="330,630" dimension="178,36" />
+  <JSFFlowResource path="/registrarProfesor.iface" location="30,730" dimension="157,36" />
+  <JSFFlowResource path="/administracion/Inicio.jspx" location="330,730" dimension="169,36" />
+  <JSFFlowResource path="/administracion/Inicio.iface" location="30,330" dimension="172,36" />
+  <JSFFlowResource path="/inscripcionBancoExpertos.iface" location="330,430" dimension="196,36" />
+  <JSFFlowResource path="/formInscripcion.faces" location="330,330" dimension="151,36" />
+  <JSFFlowResource path="/registrarLugarActividad.iface" location="30,830" dimension="187,36" />
+  <JSFFlowResource path="/creacionActividades.iface" location="330,830" dimension="170,36" />
+  <JSFFlowResource path="/inscripcionActividades.iface" location="30,930" dimension="179,36" />
+  <JSFFlowResource path="/programacionActividades.iface" location="330,930" dimension="195,36" />
+  <JSFFlowResource path="/consultaActividades.iface" location="30,1030" dimension="170,36" />
+  <JSFFlowResource path="/formConsultarInscripcion.iface" location="480,1030" dimension="194,36" />
+  <JSFFlowResource path="/grabarAsistencia.iface" location="630,430" dimension="155,36" />
+  <JSFFlowResource path="/consultaActividadesFrecuente.iface" location="630,530" dimension="219,36" />
+  <JSFFlowResource path="/formUsuarios.iface" location="30,1130" dimension="138,36" />
+  <JSFFlowResource path="/formConsultarExpertos.iface" location="630,630" dimension="186,36" />
+  <JSFFlowResource path="/servlet/showExcelServlet" location="630,730" dimension="169,36" />
+  <JSFFlowResource path="/formEncuesta.iface" location="630,830" dimension="141,36" />
+  <JSFFlowResource path="/administracion/MenuUsuario.iface" location="180,230" dimension="209,36" />
+  <JSFFlowNavigationCase id="/seguimientoBancoExpertos.iface,/pdf/consultoria.iface,ConsultoriaPDF,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="234,48" />
+      <AbsolutePoint location="330,48" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/seguimientoBancoExpertos.iface,/formEncuesta.iface,irEncuesta,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="147,66" />
+      <AbsolutePoint location="147,73" />
+      <AbsolutePoint location="571,73" />
+      <AbsolutePoint location="571,848" />
+      <AbsolutePoint location="630,848" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/consultaBancoExpertos.iface,/pdf/bancoExpertos.iface,BancoExpertosPdf,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="217,148" />
+      <AbsolutePoint location="330,148" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/principal.iface,irMenuAplicacion,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,266" />
+      <AbsolutePoint location="507,403" />
+      <AbsolutePoint location="87,403" />
+      <AbsolutePoint location="87,530" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formValoracion.iface,irIngValoracion,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="534,248" />
+      <AbsolutePoint location="586,248" />
+      <AbsolutePoint location="586,548" />
+      <AbsolutePoint location="476,548" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formInscripcion.iface,irIngresarAsociado,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="492,266" />
+      <AbsolutePoint location="492,373" />
+      <AbsolutePoint location="151,373" />
+      <AbsolutePoint location="151,630" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formConsultarCumple.iface,irConsultarCumpleanos,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="534,263" />
+      <AbsolutePoint location="556,263" />
+      <AbsolutePoint location="556,648" />
+      <AbsolutePoint location="508,648" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/registrarProfesor.iface,irIngresarProfesor,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="522,266" />
+      <AbsolutePoint location="522,418" />
+      <AbsolutePoint location="185,418" />
+      <AbsolutePoint location="185,730" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/administracion/Inicio.jspx,irInicio,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="534,233" />
+      <AbsolutePoint location="616,233" />
+      <AbsolutePoint location="616,748" />
+      <AbsolutePoint location="499,748" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/administracion/Inicio.iface,irPageInicio,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,230" />
+      <AbsolutePoint location="507,188" />
+      <AbsolutePoint location="116,188" />
+      <AbsolutePoint location="116,330" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/seguimientoBancoExpertos.iface,irIngSeguimiento,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="522,230" />
+      <AbsolutePoint location="522,103" />
+      <AbsolutePoint location="132,103" />
+      <AbsolutePoint location="132,66" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/consultaBancoExpertos.iface,irConsAsesoria,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="489,230" />
+      <AbsolutePoint location="489,203" />
+      <AbsolutePoint location="131,203" />
+      <AbsolutePoint location="131,166" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/inscripcionBancoExpertos.iface,irIngAsesoria,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="480,248" />
+      <AbsolutePoint location="441,248" />
+      <AbsolutePoint location="441,293" />
+      <AbsolutePoint location="541,293" />
+      <AbsolutePoint location="541,448" />
+      <AbsolutePoint location="526,448" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formInscripcion.faces,null,irIngValoracion" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="480,233" />
+      <AbsolutePoint location="405,233" />
+      <AbsolutePoint location="405,330" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/registrarLugarActividad.iface,irIngresarSitioPractica,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="480,263" />
+      <AbsolutePoint location="471,263" />
+      <AbsolutePoint location="471,308" />
+      <AbsolutePoint location="209,308" />
+      <AbsolutePoint location="209,830" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/creacionActividades.iface,irIngresarActividad,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,848" />
+      <AbsolutePoint location="415,848" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/inscripcionActividades.iface,irInscribirActividad,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="531,266" />
+      <AbsolutePoint location="531,896" />
+      <AbsolutePoint location="119,896" />
+      <AbsolutePoint location="119,930" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/programacionActividades.iface,irProgramarActividad,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,948" />
+      <AbsolutePoint location="427,948" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/consultaActividades.iface,irConsulActiPeriodo,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="531,230" />
+      <AbsolutePoint location="531,-7" />
+      <AbsolutePoint location="-7,-7" />
+      <AbsolutePoint location="-7,1048" />
+      <AbsolutePoint location="30,1048" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formConsultarInscripcion.iface,irConsultarInscripcion,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,1048" />
+      <AbsolutePoint location="577,1048" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/grabarAsistencia.iface,irGrabarAsistencia,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,448" />
+      <AbsolutePoint location="707,448" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/consultaActividadesFrecuente.iface,irConsActiFrecuentadas,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,548" />
+      <AbsolutePoint location="739,548" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formUsuarios.iface,irIngresarUsuario,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,1148" />
+      <AbsolutePoint location="99,1148" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formConsultarExpertos.iface,irConsultarExpertos,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,648" />
+      <AbsolutePoint location="723,648" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/servlet/showExcelServlet,mostrarExcel,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,748" />
+      <AbsolutePoint location="714,748" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/formEncuesta.iface,irEncuesta,null" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="507,248" />
+      <AbsolutePoint location="507,848" />
+      <AbsolutePoint location="700,848" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+</JSFFlowViewLayout>
+
