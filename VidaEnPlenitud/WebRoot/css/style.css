@@ -1,0 +1,223 @@
+body {
+	background-image: url("./imagenes/bg_vep.jpg");
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0066CC;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0066CC;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #009900;
+}
+
+a:active {
+	text-decoration: none;
+	color: #009900;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	color: #006668;
+}
+
+h2 {
+	font-size: 18px;
+	color: #006668;
+}
+
+h3 {
+	font-size: 24px;
+	color: #006668;
+}
+
+.textoGral {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006668;
+}
+
+.textoBlanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+TR.campoGral {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #003333;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #EBF3F3;
+}
+
+TR.campoDif {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #003333;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #D1E3E3;
+}
+
+TR.campoTitulo {
+	FONT-WEIGHT: bold;
+	text-transform: uppercase;
+	FONT-SIZE: 11px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #006668;
+}
+
+.ingresos {
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006668;
+	BACKGROUND-COLOR: #FBFCF8;
+}
+
+.tituloGral {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #006668;
+}
+
+TR.campoTitulo2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 2px;
+	padding: 5px;
+	height: 5px;
+	width: 5px;
+	border: solid #C1D1AB;
+}
+
+table.border {
+	padding: 5px;
+	border-bottom: thin #006668 solid;
+	border-left: thin #006668 solid;
+	border-right: thin #006668 solid;
+	border-top: thin #006668 solid;
+}
+
+/*=====================================================*/
+.icePnlGrdPPAL {
+    padding: 5px;
+	border-bottom: thin #006668 solid;
+	border-left: thin #006668 solid;
+	border-right: thin #006668 solid;
+	border-top: thin #006668 solid;
+}
+
+.icePnlGrdColLbl1{
+	width: 100px;
+}
+
+.icePnlGrdColTxt1{
+	width: 200px;
+}
+
+.ingresos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006668;
+	background-color: #FBFCF8;
+}
+
+.panelCabecera1 {
+	background-color: #006668;
+	width: 876px
+}
+
+.panelCabeceraCreacionActividades {
+	background-color: #006668;
+	width: 400px
+}
+
+.panelFooter {
+	background-color: #006668;
+	width: 1260px
+}
+
+.panelCabeceraWidth {
+	width: 876px
+}
+
+.panelCreacionActividades {
+	width: 400px
+}
+
+.panelPrincipalButton {
+	text-align: center;
+	width: 876px
+}
+
+.panelButtonCreacionActividades {
+	text-align: center;
+	width: 400px
+}
+
+.panelContenedorButtonWidth {
+	text-align: center;
+	width: 100px
+}
+
+.icePnlGrdRowVEP1 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #003333;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #D1E3E3;
+}
+
+.icePnlGrdRowVEP2 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	COLOR: #003333;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #EBF3F3;
+}
+
+.iceCmdBtn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #006668;
+}
+
+.tableStyle{
+    border: 1px solid #006668;
+}
+
+.iceDatTableRow1 { /* was iceTblRow1 */
+    BACKGROUND-COLOR: #D1E3E3;
+}
+
+.iceDatTableRow2 { /* was iceTblRow2 */
+    BACKGROUND-COLOR: #EBF3F3;
+}
+
+.ERROR {
+	BACKGROUND-COLOR: #F78181;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #D90A71;
+	
+}

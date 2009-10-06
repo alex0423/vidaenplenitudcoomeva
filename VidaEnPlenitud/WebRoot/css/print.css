@@ -1,0 +1,266 @@
+/* CSS Document */
+	/*****************************************************************
+/*	Standard options																							
+/*  All properties have the next characteristics unless specified 
+/*		Applies to: all elements																		
+/*    Inherited: yes																							
+/*																																
+/*  Corporative colors are:
+/* 		#0066CC  pantone 300C 
+/* 		#000000  black
+/*		
+/*	Don't use 'points' for as units. Use 'pixels' or 'em' (the best)
+/*		1em = 12pt
+/* 		1em = 16px
+/******************************************************************/
+@page {
+	size: 4.18in 6.88in;
+	margin: 0.25in;
+	-fs-flow-top: "header";
+	-fs-flow-bottom: "footer";
+	-fs-flow-left: "left";
+	-fs-flow-right: "right";
+	border: thin solid black;
+	padding: 1em;
+}
+
+#header {
+	font: bold serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-fs-move-to-flow: "header";
+}
+
+#footer {
+	font-size: 90%;
+	font-style: italic;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-fs-move-to-flow: "footer";
+}
+
+#pagenumber :before {
+	content: counter(page);
+}
+
+#pagecount :before {
+	content: counter(pages);
+}
+
+/**
+ *@page {
+ *	size: 8in 11in;
+ *	margin-left: 1in;
+ *	margin-right: 1in;
+ *	margin-bottom: 1in;
+ *	margin-top: 1in;
+ *}
+ **/
+ 
+body { /* Font properties */
+	font-family: "Times New Roman", "Courier New", Georgia, Century, serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* Color and Background properties */
+	background-color: white;
+	color: black;
+	/* Text properties */
+	letter-spacing: normal;
+	/* Box properties */
+	margin: 9pt; /* Inherited: no */
+	width: 700px;
+}
+
+p {
+	display: block;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+h1 {
+	background: none;
+	/* border: 3px solid #FFFFFF; */
+	font-size: 120%;
+	text-align: left;
+	font-weight: bold;
+	color: #0060A1;
+}
+
+h2 {
+	background: none;
+	border: 3px solid #FFFFFF;
+	font-size: 140%;
+	text-align: center;
+	font-weight: bold;
+	color: #0060A1;
+}
+
+h4 {
+	font-size: 100%;
+	text-align: justify;
+	font-weight: bold;
+}
+
+/* --- */
+.unaParte {
+	width: 5.5in;
+	margin: 5pt;
+	color: white;
+}
+
+.unaParteBordes {
+	width: 5.5in;
+	margin: 5pt;
+	border: 0.2px solid #abcdef;
+}
+
+.BordesColumna {
+	width: 5.5in;
+	margin: 5pt;
+	border: 1px solid black;
+}
+
+.unaParteGrupo {
+	width: 5.5in;
+	margin: 5pt;
+	text-align: center;
+	color: #e6ecff;
+}
+
+.colorTexto {
+	color: white;
+}
+
+.dosPartesAColumna {
+	width: 2in;
+	margin: 4pt;
+	border: 1px solid white;
+	background-color: #5198c2;
+	font-size: 6pt;
+}
+
+.dosPartesBColumna {
+	width: 3.5in;
+	margin: 4pt;
+	border: 1px solid white;
+	background-color: #e6ecff;
+}
+
+.dosPartesA {
+	width: 2in;
+	margin: 5pt;
+}
+
+.dosPartesB {
+	width: 3.5in;
+	margin: 5pt;
+}
+
+.tresPartes {
+	width: 1.8in;
+	margin: 5pt;
+}
+
+.tresPartesBordes {
+	width: 1.8in;
+	margin: 5pt;
+	border: 1px solid white;
+	background-color: #e6ecff;
+	font-size: 6pt;
+}
+
+thead {
+	display: table-header-group;
+}
+
+th {
+	text-decoration: none;
+	vertical-align: baseline;
+}
+
+a:link,a:visited {
+	background-color: white;
+	color: #552200;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.noPrint {
+	display: none;
+}
+
+/******************************************************************/
+	/*	Application options				  										 							*/
+	/*  If one of the standard options doesn't have a property that 	*/
+	/*  is going to be used on the application just add the property  */
+	/******************************************************************/
+.image {
+	background-color: #FFFFFF;
+}
+
+table {
+	font-size: 8pt;
+	border-width: 1pt;
+	width: 6in;
+	text-align: justify;
+	border-collapse: collapse;
+	/* 	
+	border-color: #000000;
+	border-style: solid;
+	width: 100%;
+	padding: 2px;
+	padding-bottom: 5px;
+*/
+	display: block;
+}
+
+td {
+	font-size: 8pt;
+	text-align: justify;
+	display: table-cell;
+}
+
+.iceOutTxt {
+	display: inline;
+	overflow: visible;
+	white-space: normal;
+}
+
+.Default {
+	display: block;
+}
+
+.certTable {
+	font-size: 8pt;
+	border: 1;
+	text-align: center;
+	/*page-break-inside: avoid; works only in Mozilla*/
+}
+
+.noBorderTable {
+	border: 0;
+	padding: 0px;
+}
+
+.subtitle {
+	font-size: 8pt;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.footnotes_font {
+	font-size: 7pt;
+	border-width: 1pt;
+}
