@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="axis.jar"/>
+	<classpathentry kind="lib" path="axis-ant.jar"/>
+	<classpathentry kind="lib" path="commons-discovery.jar"/>
+	<classpathentry kind="lib" path="commons-logging.jar"/>
+	<classpathentry kind="lib" path="jaxrpc.jar"/>
+	<classpathentry kind="lib" path="jt400.jar"/>
+	<classpathentry kind="lib" path="log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="saaj.jar"/>
+	<classpathentry kind="lib" path="wsdl4j.jar"/>
+	<classpathentry kind="lib" path="xalan.jar"/>
+	<classpathentry kind="lib" path="xercesImpl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
